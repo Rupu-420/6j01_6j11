@@ -1,6 +1,6 @@
 
 **Get root access on any 6j01 or 6j11 to fetch/reset u-boot password**
-**No NAND read/write required**
+**Current stock firmware has to be lower than R3.2.3, No NAND read/write required**
 ===========================================
 
 **Reset your router and login using default credentials**
