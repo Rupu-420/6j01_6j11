@@ -5,12 +5,12 @@
 
 **Reset your router and login using default credentials**
 
-  admin
-  Jiocentrum
+    admin
+    Jiocentrum
 
 **set below password as the admin password.**
 
-  Aa1$(passwd${IFS}-d${IFS}root)
+    Aa1$(passwd${IFS}-d${IFS}root)
 
 **Login back using the same above password**
 
@@ -18,7 +18,7 @@
 
 **Set below password as new password**
 
-  Cc2$(killall${IFS}dropbear)
+    Cc2$(killall${IFS}dropbear)
 
 **Login back using the above password**
 
@@ -26,7 +26,7 @@
 
 **Set below password as new password**
 
-  Dd3$(dropbear${IFS}-B)
+    Dd3$(dropbear${IFS}-B)
 
 **Backup the existing stock firmware so you can restore later if you want.**
 
