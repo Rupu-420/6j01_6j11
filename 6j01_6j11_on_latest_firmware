@@ -28,12 +28,11 @@
 
     Dd3$(dropbear${IFS}-B)
 
-**Backup the existing stock firmware so you can restore later if you want.**
+**after this step you can login into ssh without any password.**
 
-    ssh root@192.168.31.1 "cat /dev/mtd23" > mtd23_rootfs.bin
-    ssh root@192.168.31.1 "cat /dev/mtd24" > mtd24_rootfs1.bin
+    ssh root@192.168.31.1
 
-**Fetch important Data and save the real output somewhere safe offline, and never share it publicly**
+****
 
     jioMfgData get all
 
