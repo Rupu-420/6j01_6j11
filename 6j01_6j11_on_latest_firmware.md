@@ -36,18 +36,18 @@
 
 **1. For 6j01 (including 6101) use ssh method**
 
-        https://youtu.be/S8LuuL7tme4
+    https://youtu.be/S8LuuL7tme4
 
 or 
         
-        https://github.com/the-diy-daddy/6j01_6j11
+    https://github.com/the-diy-daddy/6j01_6j11
 
 
 **2. For 6j11 use uart method**
 
-        https://youtu.be/ODFnTourHYk
+    https://youtu.be/ODFnTourHYk
 
 or
 
-        https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j11_instructions.md
+    https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j11_instructions.md
 
