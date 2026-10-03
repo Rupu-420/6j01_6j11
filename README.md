@@ -11,17 +11,17 @@ https://github.com/the-diy-daddy/6j01_6j11/blob/main/6j11_instructions.md
 Commands for JIDU 6201, 6401, 6601, 6701****
 ==========================================================
 
-***To get List of partitions***
-
-    cat /proc/mtd
-
-***To get U-Boot Password***
+***To get U-Boot Password (Uboot password is required to flash router using UART Method***
 
     strings /dev/mtd7 | grep -i pass
 
 or
 
     /usr/bin/mfg_data get bootpass
+
+***To get List of partitions***
+
+    cat /proc/mtd
 
 *Backup the existing stock firmware so you can restore later if you want.*
 **Run these commands one by one**
