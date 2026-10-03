@@ -15,6 +15,12 @@ Commands for JIDU 6201, 6401, 6601, 6701****
 
     cat /proc/mtd
 
+***To get U-Boot Password***
+
+    strings /dev/mtd7 | grep -i pass
+
+or
+
     /usr/bin/mfg_data get bootpass
 
 *Backup the existing stock firmware so you can restore later if you want.*
