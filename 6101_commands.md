@@ -4,7 +4,7 @@
 
 3. Connect the serial port with USB to TTL adapter.
 
-make sure that the usb-ttl adapter is set to 3.3v (connect jumper plug between vcc and 3.3v)
+Make sure that the usb-ttl adapter is set to 3.3v (connect jumper plug between vcc and 3.3v)
 
 4. Setup Putty.
 
