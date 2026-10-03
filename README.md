@@ -19,11 +19,14 @@ or
 
     /usr/bin/mfg_data get bootpass
 
+
+
+*Backup the existing stock firmware so you can restore later if you want.*
+
 ***To get List of partitions***
 
     cat /proc/mtd
 
-*Backup the existing stock firmware so you can restore later if you want.*
 **Run these commands one by one**
 
 **New Terminal in PC:**
