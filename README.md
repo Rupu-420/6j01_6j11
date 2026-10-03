@@ -41,7 +41,7 @@ or
     ssh root@192.168.31.1 "cat /dev/mtd8" > mtd8_Jio_Reserved.bin
 
 
-*To Flash:*
+***To Flash OpenWrt:***
 
 **New Terminal in PC:**
 
