@@ -14,6 +14,10 @@ make sure that the usb-ttl adapter is set to 3.3v (connect jumper plug between v
 
 **Once you are in the U-Boot command prompt, run these commands one by one.**
 
+***To get U-Boot Password (Uboot password is required to flash router using UART Method***
+
+    strings /dev/mtd7 | grep -i pass
+
   setenv ipaddr 192.168.1.1
   
   setenv serverip 192.168.1.2
